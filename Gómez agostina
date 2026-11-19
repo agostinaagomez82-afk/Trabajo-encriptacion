@@ -1,0 +1,31 @@
+# Parte 1: Cuestionario de Investigación
+
+1. **Objetivo principal de la encriptación:** mantener la confidencialidad de la información. Convierte el texto plano en texto cifrado mediante un algoritmo y una clave, de modo que solo quienes tengan la clave puedan leerlo.
+
+2. **Niveles de encriptación en bases de datos:**
+   - **En tránsito:** protege los datos mientras viajan por la red. Ejemplo: TLS/SSL.
+   - **Por columna o campo:** cifra solo datos sensibles, como contraseñas o DNI.
+   - **Por tabla o tablespace:** cifra una tabla completa o un grupo de datos.
+   - **Transparente de datos (TDE) o a nivel de disco:** cifra los archivos físicos y las copias de seguridad sin modificar las aplicaciones.
+
+3. **Cifrado simétrico y asimétrico:**
+   - **Simétrico:** usa una sola clave para cifrar y descifrar. Es rápido, pero su distribución puede ser riesgosa. Ejemplo: AES.
+   - **Asimétrico:** usa una clave pública para cifrar y una privada para descifrar. Ejemplo: RSA.
+
+# Parte 3: Actividades Prácticas
+
+## Desafío 1: Encriptar (+3)
+
+| Original | B | A | N | C | O |
+|---|---:|---:|---:|---:|---:|
+| Cifrada | E | D | Q | F | R |
+
+**Resultado: `BANCO` → `EDQFR`**
+
+## Desafío 2: Desencriptar (-3)
+
+| Cifrada | K | O | U | O |
+|---|---:|---:|---:|---:|
+| Real | H | L | R | L |
+
+**Resultado: `HLRL`**
